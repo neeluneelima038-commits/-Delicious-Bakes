@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet Treats Bakery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #fff8f0;
+            color: #44302b;
+        }
+
+        header {
+            background-color: #603c32;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #8b5e50;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 55px 20px;
+            background-color: #f5dfd2;
+        }
+
+        .welcome h2 {
+            font-size: 32px;
+            color: #794333;
+        }
+
+        .welcome button {
+            background-color: #794333;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #ddd;
+        }
+
+        .card h3 {
+            color: #874b3c;
+        }
+
+        .price {
+            color: #b45c65;
+            font-weight: bold;
+        }
+
+        .card button {
+            background-color: #b45c65;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .about {
+            background-color: #f3e4d9;
+            padding: 35px;
+            text-align: center;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 30px;
+        }
+
+        footer {
+            background-color: #603c32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sweet Treats Bakery</h1>
+    <p>Freshly Baked Happiness Every Day!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="welcome" id="home">
+    <h2>Welcome to Sweet Treats!</h2>
+    <p>Enjoy delicious cakes, cookies and fresh bakery items.</p>
+    <button onclick="location.href='#products'">
+        Explore Products
+    </button>
+</div>
+
+<div class="container" id="products">
+    <h2>Our Delicious Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and creamy chocolate cake.</p>
+            <p class="price">₹450</p>
+            <button onclick="alert('Thank you for choosing Chocolate Cake!')">Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Black Forest</h3>
+            <p>Delicious cake with chocolate layers.</p>
+            <p class="price">₹550</p>
+            <button onclick="alert('Thank you for choosing Black Forest!')">Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Strawberry Cake</h3>
+            <p>Fresh strawberry flavoured cake.</p>
+            <p class="price">₹500</p>
+            <button onclick="alert('Thank you for choosing Strawberry Cake!')">Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Cookies</h3>
+            <p>Crunchy and tasty cookies.</p>
+            <p class="price">₹150</p>
+            <button onclick="alert('Thank you for choosing Cookies!')">Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Cupcakes</h3>
+            <p>Soft and colourful mini cupcakes.</p>
+            <p class="price">₹200</p>
+            <button onclick="alert('Thank you for choosing Cupcakes!')">Order Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Donuts</h3>
+            <p>Sweet and delicious chocolate donuts.</p>
+            <p class="price">₹100</p>
+            <button onclick="alert('Thank you for choosing Donuts!')">Order Now</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="about" id="about">
+    <h2>About Our Bakery</h2>
+    <p>Sweet Treats Bakery offers fresh, tasty and quality bakery products.</p>
+    <p>We make every celebration special with our delicious cakes!</p>
+</div>
+
+<div class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: sweettreats@gmail.com</p>
+    <p>Phone: 9876543210</p>
+    <p>Location: India</p>
+</div>
+
+<footer>
+    <p>© 2026 Sweet Treats Bakery. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
